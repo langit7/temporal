@@ -1,3 +1,6 @@
 systemctl daemon-reload
 systemctl start prometheus
 systemctl enable prometheus
+wget https://dl.min.io/client/mc/release/linux-amd64/mc
+chmod +x mc
+mv mc /usr/local/bin
